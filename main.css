@@ -21,6 +21,10 @@ button {
 
 p {
     color: #64607D;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: normal;
+    letter-spacing: -0.02em;
 }
 
 /* NAVIGATION */
@@ -210,4 +214,57 @@ p {
     font-size: 17px;
     line-height: 30px;
     letter-spacing: -0.02em;
+}
+
+/* CARDS */
+.card__title {
+    font-weight: var(--font-size--ExtraBold);
+    line-height: 30px;
+    letter-spacing: -0.03em;
+}
+
+.container--cards {
+    display: grid;
+    grid-template-columns: repeat(3,280px);
+    justify-content: center;
+    gap: 6rem;
+}
+
+.first-card__title {
+    position: relative;
+    margin-top: 24px;
+}
+
+.first-card__number {
+    position: absolute;
+    left: 38rem;
+    top: -0.1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-card__title {
+    position: relative;
+    margin-top: 24px;
+}
+
+.second-card__number {
+    position: absolute;
+    left: 61.2rem;
+    top: -0.1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.third-card__title {
+    position: relative;
+    margin-top: 24px;
+}
+
+.third-card__number {
+    position: absolute;
+    right: 28rem;
+    top: -0.1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
