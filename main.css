@@ -156,3 +156,18 @@ p {
     margin-top: 1.5rem;
     cursor: pointer;
 }
+
+/* COMPANIES */
+.container--companies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--companies__text {
+    font-size: 1.375rem;
+    line-height: 30.05px;
+    font-weight: var(--font-size--Bold);
+    margin-bottom: 2.479rem;
+}
