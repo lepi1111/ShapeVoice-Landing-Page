@@ -171,3 +171,43 @@ p {
     font-weight: var(--font-size--Bold);
     margin-bottom: 2.479rem;
 }
+
+/* FIRST ARTICLE */
+.container--about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+    
+}
+
+.container--about__title {
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: var(--font-size--ExtraBold);
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.container--about__text {
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-top: 13px;
+    margin-bottom: 25px;
+}
+
+.container--about__button {
+    color: #fff;
+    padding: 8px 102px 10px 101px;
+    background-color: var(--primary-2-clr);
+    border-radius: .8rem;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
