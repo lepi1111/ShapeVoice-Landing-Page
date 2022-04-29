@@ -299,3 +299,46 @@ p {
     font-size: 20px;
     flex-shrink: 0;
 }
+
+/* CONTENT */
+.container--prim-card {
+    margin: 3rem 0 0 3rem;
+    width: 370px;
+    height: 302px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.prim-card__profile-pic {
+    width: 100px;
+    aspect-ratio: 1;
+}
+
+.prim-card__name {
+    font-size: 20px;
+    font-weight: var(--font-size--ExtraBold);
+    line-height: 27.32px;
+    margin-top: -22px;
+}
+
+.prim-card__description {
+    font-size: 14px;
+    font-weight: var(--font-size--Medium);
+    line-height: 19.12px;
+    margin-top: -40px;
+}
+
+.prim-card__button {
+    font-size: 16px;
+    font-weight: var(--font-size--Semibold);
+    line-height: 24px;
+    color: #fff;
+    background-color: #0091D0;
+    padding: 9px 43px 9px 43px;
+    border-radius: 6px;
+
+}
