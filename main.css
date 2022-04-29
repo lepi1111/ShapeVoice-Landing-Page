@@ -268,3 +268,34 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* CTA */
+.container--cta-box {
+    margin-top: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F9FD;
+    padding: 40px 100px;
+    max-width: 1045px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.cta-box__title {
+    font-size: 36px;
+    font-weight: var(--font-size--ExtraBold);
+    line-height: 56px;
+    letter-spacing: -0.03em;
+}
+
+.cta-box__button {
+    padding: 20px 40px;
+    border-radius: 20px;
+    background-color: var(--primary-2-clr);
+    color: #fff;
+    margin-left: 2rem;
+    font-size: 20px;
+    flex-shrink: 0;
+}
