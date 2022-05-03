@@ -448,3 +448,16 @@ p {
     letter-spacing: -0.03em;
     margin-bottom: 46px;
 }
+
+/* CONTENT CARDS MASHUP */
+.container--second-card {
+    position: relative;
+    
+}
+
+.container--prim-card {
+    position: absolute;
+    top: 155px;
+    left: 190px;
+}
+
