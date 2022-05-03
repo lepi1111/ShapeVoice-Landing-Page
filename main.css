@@ -469,3 +469,26 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* VALUE PROPS TEXT PART */
+.value-props--text {
+    width: 718px;
+    height: 133px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text__heading {
+    font-size: 42px;
+    font-weight: var(--font-size--ExtraBold);
+    line-height: 60px;
+    letter-spacing: -0.03em;
+}
+
+.text__paragraph {
+    font-size: 20px;
+    font-weight: var(--font-size--Medium);
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
