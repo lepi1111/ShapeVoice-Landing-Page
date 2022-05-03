@@ -1,0 +1,36 @@
+<div class="container--cards-button">
+    <div class="value-props--cards">
+        <div class="cards__card1">
+            <h2 class="card1__header">Do believing oh disposing to supported</h2>
+            <p class="card1__text">Is be upon sang fond must shew. Really boy law county she unable her sister. Feet
+                you
+                off its
+                like like six. </p>
+            <div class="card1__button">
+                <button class="button__button">See More</button>
+                <img class="button__arrow" src="images/right-arrow_green.svg" alt="">
+            </div>
+        </div>
+        <div class="cards__card2">
+            <h2 class="card2__header">Do believing oh disposing to supported</h2>
+            <p class="card2__text">The its enable direct men depend highly. Ham windows sixteen who inquiry fortune
+                demands.</p>
+            <div class="card2__button">
+                <button class="button__button">See More</button>
+                <img class="button__arrow" src="images/right-arrow_green.svg" alt="">
+            </div>
+        </div>
+        <div class="cards__card3">
+            <h2 class="card3__header">Do believing oh disposing to supported</h2>
+            <p class="card3__text">Among sex are leave law built now. In built table in an rapid blush. Merits
+                behind on
+                afraid or
+                warmly.</p>
+            <div class="card3__button">
+                <button class="button__button">See More</button>
+                <img class="button__arrow" src="images/right-arrow_green.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <button class="value-props__button">More About Platform</button>
+</div>

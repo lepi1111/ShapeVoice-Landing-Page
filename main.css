@@ -492,3 +492,77 @@ p {
     letter-spacing: -0.02em;
     text-align: center;
 }
+
+/* VALUE PROPS CARDS PART */
+.value-props--cards {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+}
+
+.cards__card1,
+.cards__card2,
+.cards__card3 {
+    width: 380px;
+    height: 350px;
+    border: 1px solid #DFDFDF;
+    border-radius: 22px;
+    box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+
+.card1__header,
+.card2__header,
+.card3__header {
+    font-size: 24px;
+    font-weight: var(--font-size--ExtraBold);
+    line-height: 33px;
+    letter-spacing: -0.03em;
+    margin-top: 99px;
+    margin-left: 33px;
+    margin-right: 46px;
+}
+
+.card1__text,
+.card2__text,
+.card3__text {
+    font-size: 16px;
+    font-weight: var(--font-size--Medium);
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    margin-left: 33px;
+    margin-right: 29px;
+}
+
+.button__button {
+    font-size: 16px;
+    font-weight: var(--font-size--Medium);
+    line-height: 16px;
+    color: #01966B;
+    margin-left: 33px;
+    margin-right: 10px;
+    margin-bottom: 39px;
+}
+
+.container--cards-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.value-props__button {
+    font-size: 16px;
+    font-weight: var(--font-size--Semibold);
+    line-height: 21.86px;
+    text-align: center;
+    color: #fff;
+    background-color: var(--primary-2-clr);
+    padding: 21px 51px 17px 50px;
+    border-radius: 10px;
+    margin-top: 42px;
+}
