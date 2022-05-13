@@ -369,9 +369,6 @@ p {
     align-items: center;
 }
 
-.second-card__third-user {
-}
-
 .description1,
 .description2,
 .description3 {
@@ -566,4 +563,45 @@ p {
     padding: 21px 51px 17px 50px;
     border-radius: 10px;
     margin-top: 42px;
+}
+
+/* QUICK STATS */
+.container--quick-stats {
+    width: 1200px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border: 1px solid #DFDFDF;
+    border-radius: 22px;
+}
+
+.quick-stats__header {
+    font-size: 34px;
+    font-weight: var(--font-size--ExtraBold);
+    line-height: 46px;
+    letter-spacing: -0.03em;
+}
+
+.qucik-stats__body {
+    display: flex;
+    align-items: center;
+}
+
+.body__icon1,
+.body__icon2,
+.body__icon3 {
+    background-color: #E9ECF2;
+    border-radius: 5px;
+    margin-right: 18px;
+    padding: 8px;
+}
+
+.body__textOfIcon1,
+.body__textOfIcon2,
+.body__textOfIcon3 {
+    margin-right: 40px;
 }
