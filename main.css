@@ -16,6 +16,10 @@
     font-family: 'Manrope', sans-serif;
 }
 
+.container {
+    width: 1200px;
+}
+
 button {
     border: 0;
 }
@@ -604,4 +608,102 @@ p {
 .body__textOfIcon2,
 .body__textOfIcon3 {
     margin-right: 40px;
+}
+
+/* TESTIMONIALS */
+.container--testimonials {
+    display: flex;
+    align-items:flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 88px;
+}
+
+.testimonials__left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side__title {
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 17px;
+    color: var(--primary-2-clr);
+}
+
+.left-side__header {
+    margin-top: 15px;
+    font-weight: var(--font-size--ExtraBold);
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: -0.03em;
+}
+
+.left-side__image {
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 27px;
+}
+
+.container--arrow {
+    display: flex;
+    gap: 20px;
+}
+
+.arrow__previous,
+.arrow_next {
+    background: transparent;
+    cursor: pointer;
+}
+
+.arrow__previous {
+    background-color: var(--primary-2-clr);
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.arrow_next {
+    font-size: 20px;
+}
+
+.testimonials__right-side {
+    margin-top: 2.5rem;
+}
+
+.right-side__image-vector {
+    margin-top: 4.5rem;
+}
+
+.right-side__header {
+    font-weight: var(--font-size--ExtraBold);
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+}
+
+.right-side__first-paragraph,
+.right-side__second-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+.right-side__second-paragraph {
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+.right-side__username {
+    font-weight: var(--font-size--ExtraBold);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+}
+
+.right-side__title {
+    font-size: 14px;
+    line-height: 24px;
 }
